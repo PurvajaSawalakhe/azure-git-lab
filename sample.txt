@@ -1,0 +1,29 @@
+1.3 Lab Steps 
+Follow the steps outlined below to achieve the objective of this lab exercise: 
+1. Sign up for GitHub using this link. If you already have an account, log in to that. 
+2. Create a new repository by clicking on New in GitHub Home Page. 
+3. Create a sample repository directly and give some name to it. 
+Note: There is no need to add a README file or gitignore file or choose a license. 
+4. Once the repository is created, you can upload a file by clicking on Add file > upload files. Or you can 
+create a file then and there using the option Add file > Create new file. 
+4 
+5. If you selected upload files option, drag and drop the file you wish to upload. 
+6. Once you dropped the files, in the Commit Changes section, give some title and description for the upload. 
+7. Click on Commit Changes. 
+Note: This process is called staging and committing. If Git Bash is being used, you need to enter the 
+command for stage and commit. In this case it is not required. 
+Once Committed, you can see the file in the repository. Now assume this is your master code. Master code 
+should never be touched directly. It should be changed only via Branches and Pull Requests (PR). 
+8. In our case, create a Branch named Dev or something. To perform this, click on master and type the name 
+of the branch. 
+9. Make sure that you are in sample branch. Now edit the file that was uploaded and commit the changes. 
+10. Once you changed the file, move to Repository Home page. Make sure that you are in Sample Branch. 
+11. You should be seeing an option stating, <branch> had recent pushes Compare and Pull Request. 
+12. Click on Compare and Pull request. You should be finding Able to Merge. 
+13. Give some title and some description for the PR and create a PR. 
+14. Now it displays This branch has no conflicts with the base branch. Merge Pull request. 
+15. Click on merge pull request and the change will be added to the master branch and click on delete 
+branch to delete the branch that was created recently. 
+16. If you navigate to the repository home, it should display master as the branch. Check the file that was 
+edited and you should find the changes integrated. 
+This is the general flow of GitHub Source Control.
